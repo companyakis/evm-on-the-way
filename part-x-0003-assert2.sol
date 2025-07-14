@@ -1,8 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.26;
 
-import "./calculus.sol";
-
 contract Mustafa {
 
     function profitorLossCalculator(uint256 _sales, uint256 _cost) public pure returns (uint256) {
