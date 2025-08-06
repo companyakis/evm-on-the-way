@@ -6,3 +6,14 @@ Implement a constructor that sets greeting to "Hello, World!".
 
 */
 
+
+pragma solidity ^0.8.0;
+
+contract HelloWorld {
+
+  string public greeting;
+
+  constructor() {
+    greeting = "Hello, World!";
+  }
+}
